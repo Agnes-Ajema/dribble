@@ -1,0 +1,86 @@
+ 
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#head{
+    display: flex;
+    margin-right: 20%;
+}
+.girl{
+    margin-right: 40%;
+}
+#icon{
+    margin-top: 2%;
+    margin-right: 0;
+}
+#button{
+    background-color: black;
+    color: white;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+.types{
+    text-align: center;
+    justify-content: space-between;
+}
+.variety{
+    display: flex;
+    justify-content: space-around;
+}
+.type1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.category{
+    display:flex;
+    justify-content: space-evenly;
+    margin-right: 70%;
+
+}
+#red{
+    background-color: palevioletred;
+    height: 30px;
+}
+.trends{
+    display: flex;
+    justify-content: space-around;
+}
+#yellow{
+    background-color: yellow;
+    height: 30px;
+}
+.men {
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom{
+    display:flex ;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.news{
+    margin-right: 0%;
+    margin-left: 10%;
+}
+.guide{
+    margin-left: 20%;
+    margin-right: 0;
+}
+.refer{
+    margin-left: 10%;
+}
+.about{
+    margin-left: 20%;
+}
+@media only screen and (max-width:500px){
+    /* For mobile phones: */
+    .menu, .main, .right{
+        width: 100%
+    }
+}
